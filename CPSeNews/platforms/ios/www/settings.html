@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META SECTION -->
+        <title>CPS e-Newsletter</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- END META SECTION -->
+        <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/horizon-swiper.min.css">
+            <link rel="stylesheet" type="text/css" href="css/horizon-theme.min.css">
+                </head>
+    <body class="settings">
+         <div class="loader"><img src="img/loading.gif" style="display:block;"></div>
+        <!-- page container -->
+        <div class="page-container this-animate" data-animate="fadeInRight" >
+            <!-- page header -->
+            <div class="page-header">
+               
+                <div class="page-header-holder">
+                    <!-- page logo -->
+                    <div class="logo">
+                        <h4>Settings</h4>
+                    </div>
+                    
+                    <div class="navigation-toggle">
+                        <div id="btnBack" class="navigation-back-button"><span class="fa flaticon-back"></span></div>
+                    </div>
+                  
+                </div>
+              
+            </div>
+            
+            <div class="page-content">
+                
+                <div class="page-content-wrap bg-light">
+                    <!-- page content holder -->
+                    <div class="page-content-holder no-padding">
+                        <!-- page title -->
+                        <div class="page-title" style="display:none;">
+                            <h1>Config</h1>
+                        </div>
+                       
+                    </div>
+                </div>
+               
+                <div class="page-content-wrap">
+                    <!-- page content holder -->
+                    <div class="page-content-holder padding-v-30">
+                        <div class="row">
+                            <div class="col-md-12">
+                              The Body
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./page content wrapper -->
+            </div>
+            <!-- ./page content holder -->
+        </div>
+        <!-- ./page content -->
+        <footer class="footer">
+            <div class="container">
+                <a class="button col-xs-4" href="index.html">
+                    <div>
+                        <i class="fa flaticon-house fa-lg fa-inverse"></i>
+                    </div>
+                </a>
+            </div>
+        </footer>
+        
+            </div>
+        </div>
+        <!-- ./page container -->
+        <!-- page scripts -->
+        <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/plugins/mixitup/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/plugins/appear/jquery.appear.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript">
+            $(function(){
+              SyntaxHighlighter.all();
+              });
+              $(window).load(function(){
+                             $('.flexslider').flexslider({
+                                                         animation: "slide",
+                                                         animationLoop: false,
+                                                         slideshow: false,
+                                                         start: function(slider){
+                                                         $('body').removeClass('loading');
+                                                         }
+                                                         });
+                             });
+                             
+                             
+                             
+            </script>
+        <script type="text/javascript" src="js/actions.js"></script>                
+        <!-- ./page scripts -->
+    </body>
+</html>
